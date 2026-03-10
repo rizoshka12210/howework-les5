@@ -94,3 +94,50 @@ text-decoration:none;
 font-weight:600;
 }
 
+.features{
+width:1200px;
+margin:auto;
+padding-bottom:120px;
+}
+
+.features h1{
+font-size:42px;
+margin-bottom:50px;
+}
+
+.content{
+display:flex;
+align-items:flex-start;
+gap:0px;
+}
+
+.list{
+list-style:none;
+font-size:16px;
+color:#3a3a45;
+}
+
+.list li{
+margin-bottom:15px;
+position:relative;
+padding-left:25px;
+}
+
+.list li:before{
+content:"✓";
+position:absolute;
+left:0;
+color:#2ecc71;
+font-weight:bold;
+}
+
+.link{
+display:block;
+margin-top:20px;
+color:#6c3cff;
+text-decoration:none;
+}
+.brend{
+    width: 80%;
+}
+
