@@ -256,3 +256,22 @@ opacity:0.7;
 font-weight:600;
 letter-spacing:1px;
 }
+
+@media(max-width:500px){
+    header ul{display: none;}
+    .kalon img{width: 350px;}
+    .card{flex-direction: column;}
+    .card img{width: 350px;}
+    .card p{width: 350px;}
+    .more img{width: 350px;
+    top: 100px;}
+    .var{position: relative;}
+    .more{flex-direction: column;}
+    table{display: none;}
+    .move{display: flex;
+        flex-direction: column;
+    }
+    .move p{display: none;}
+    footer{max-width: 500px;
+        flex-wrap: wrap;}
+}
