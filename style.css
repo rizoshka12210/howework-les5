@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+.registr{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.registr button{
+    background-color: transparent;
+    border: 1px solid #550088;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
