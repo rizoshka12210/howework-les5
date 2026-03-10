@@ -26,4 +26,33 @@ ul{
     font-size: 16px;
     border-radius: 10px;
 }
-
+.setup{
+    max-width: 1200px;
+    margin: 150px auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.setup h1{
+    font-size: 70px;
+}
+.setup p{
+    text-align: center;
+    font-size: 20px;
+}
+.setup span {
+    color: #550088;
+}
+.setup input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid black;
+}
+.setup button{
+    background-image: linear-gradient(to bottom, #550088,#7800BF,#892FFC);
+    color: white;
+    border: 1px solid black;
+    padding: 10px 25px;
+}
